@@ -1,13 +1,12 @@
 from mock_data import FleetGen
+'''
+The for loop below is an example of how you can access the data created by FleetGen()
+'''
 
-v_fleet = FleetGen()
+fleet = FleetGen()
 
-v_fleet.make_truck()
+fleet.make_truck()
 
 
-for truck, stats in v_fleet.truck.items():
+for truck, stats in fleet.truck.items():
 	print(f"{stats['year']}\t {stats['make']}\t {stats['model']} ")
-
-# truck = {'mileage': 150, 'year': 2016}
-
-# print(truck['mileage'])
