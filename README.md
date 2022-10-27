@@ -1,5 +1,8 @@
 # mock_data
-Randomly generate a fleet of vehicles and their stats.
+
+I created this before I learned about database seeders.
+
+## Randomly generate a fleet of vehicles and their stats.
 
 fleet.py is a brief example of how mock_data can be used
 
